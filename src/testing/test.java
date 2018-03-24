@@ -16,7 +16,6 @@ driver.get("https://ar-ar.facebook.com/");
 driver.manage().window().maximize();
 driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("raya.mah.987@gmail.com");
 driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("rayamah987");
-
 Select x=new Select(driver.findElement(By.xpath(".//*[@id='month']")));
 x.selectByIndex(6);
 driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
