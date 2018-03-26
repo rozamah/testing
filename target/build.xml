@@ -8,13 +8,13 @@
 
 <path id="NecessaryLibraries">
 
-<pathelement location="./MyLibraries/junit.jar"/>
+<pathelement location="./MyLibreries/junit.jar"/>
 
 
 
-<pathelement location="./MyLibraries/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+<pathelement location="./MyLibreries/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 
-<pathelement location="./MyLibraries/selenium-server-standalone-3.9.1.jar"/>
+<pathelement location="./MyLibreries/selenium-server-standalone-3.9.1.jar"/>
 
 </path>
 
@@ -58,7 +58,7 @@ includeantruntime="false">
 
 <fileset dir="${result.javaclasses.dir}" >
 
-<include name="**/*calctest.class"/>
+<include name="**/*test1.class"/>
 
 </fileset>
 
