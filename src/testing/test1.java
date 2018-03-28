@@ -2,10 +2,10 @@ package testing;
 
 
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import javax.swing.JOptionPane;
+import org.junit.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
