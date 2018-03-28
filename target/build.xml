@@ -1,8 +1,8 @@
 <project default="compile">
 
-<property name="src.java.dir" location="./src/testing"/>
+<property name="C:\Users\rozam\eclipse-workspace\testing\src\testing" location="./src/testing"/>
 
-<property name="result.dir" location="./"/>
+<property name="result.dir" location="./target/"/>
 
 <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
 
@@ -22,7 +22,7 @@
 
 <mkdir dir="${result.javaclasses.dir}"/>
 
-<javac srcdir="${src.java.dir}" destdir="${result.javaclasses.dir}" debug="true"
+<javac srcdir="C:\Users\rozam\eclipse-workspace\testing\src\testing" destdir="${result.javaclasses.dir}" debug="true"
 
 includeantruntime="false">
 
